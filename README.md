@@ -212,8 +212,8 @@ SERE currently supports the following MoE models:
 
 | Model | Activated Experts / Total Experts | Activated Params / Total Params | HuggingFace |
 | ----- | --------------------------------- | ------------------------------- | ----------- |
-| Qwen1.5-MoE-A2.7B-Chat | 4 / 60 + 4 | 2.7B / 14.3B | [Qwen/Qwen1.5-MoE-A2.7B-Chat](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat) |
-| DeepSeek-V2-Lite-Chat | 6 / 64 + 2 | 2.4B / 16B | [deepseek-ai/DeepSeek-V2-Lite-Chat](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat) |
+| Qwen1.5-MoE-A2.7B-Chat | 4 / 60 + 4 Shared | 2.7B / 14.3B | [Qwen/Qwen1.5-MoE-A2.7B-Chat](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat) |
+| DeepSeek-V2-Lite-Chat | 6 / 64 + 2 Shared | 2.4B / 16B | [deepseek-ai/DeepSeek-V2-Lite-Chat](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat) |
 | Qwen3-30B-A3B-Instruct | 8 / 128 | 3B / 30B | [Qwen/Qwen3-30B-A3B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507) |
 
 To adapt SERE to other MoE models, you can refer to the provided architectures and create custom modeling files following the same pattern.
