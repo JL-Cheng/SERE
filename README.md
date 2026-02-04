@@ -1,6 +1,11 @@
 # SERE: Similarity-Based Expert Re-routing for Efficient Batch Decoding in MoE Models
 
-We present code for [SERE: Similarity-based Expert Re-routing for Efficient Batch Decoding in MoE Models](https://arxiv.org/abs/xxxx.xxxxx).
+[![ICLR](https://img.shields.io/badge/ICLR-2026-blue)](https://openreview.net/forum?id=98IxaUQtMY)
+
+If our project helps you, please give us a star ⭐ and cite our <a href="#citation">paper</a>!
+
+## News
+- **[2026.01.26]**: 🎉 Our paper is accepted to ICLR 2026!
 
 ## Introduction
 
