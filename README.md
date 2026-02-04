@@ -210,9 +210,11 @@ See [experiments/opencompass/README.md](experiments/opencompass/README.md) for m
 
 SERE currently supports the following MoE models:
 
-- Qwen1.5-MoE series (e.g., Qwen1.5-MoE-A2.7B)
-- Qwen3-MoE series (e.g., Qwen3-30B-A3B)
-- DeepSeek-V2 series (e.g., DeepSeek-V2-Lite)
+| Model | Activated Experts / Total Experts | Activated Params / Total Params | HuggingFace |
+| ----- | --------------------------------- | ------------------------------- | ----------- |
+| Qwen1.5-MoE-A2.7B-Chat | 4 / 60 + 4 | 2.7B / 14.3B | [Qwen/Qwen1.5-MoE-A2.7B-Chat](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat) |
+| DeepSeek-V2-Lite-Chat | 6 / 64 + 2 | 2.4B / 16B | [deepseek-ai/DeepSeek-V2-Lite-Chat](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat) |
+| Qwen3-30B-A3B-Instruct | 8 / 128 | 3B / 30B | [Qwen/Qwen3-30B-A3B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507) |
 
 To adapt SERE to other MoE models, you can refer to the provided architectures and create custom modeling files following the same pattern.
 
@@ -237,4 +239,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-We thank the developers of vLLM, Transformers, and OpenCompass for their excellent frameworks that made this work possible.
+We thank the developers of [vLLM](https://github.com/vllm-project/vllm), [Transformers](https://github.com/huggingface/transformers), and [OpenCompass](https://github.com/open-compass/opencompass) for their excellent frameworks that made this work possible.
